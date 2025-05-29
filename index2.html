@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="header">
+    <span style="background-color: #fdf7f7; padding-top: 10px; color: #800000">Attendance Planner</span>
+  </div>
+
+  <form class="f">
+    <div class="input-group">
+      <label for="total">Total Classes in Course:</label>
+      <input type="number" id="total" placeholder="max-100">
+    </div>
+    <div class="input-group">
+      <label for="conducted">Classes Conducted So Far:</label>
+      <input type="number" id="conducted" placeholder="max-100">
+    </div>
+    <div class="input-group">
+      <label for="current">Current Attendance %:</label>
+      <input type="number" id="current" placeholder="0-100">
+    </div>
+    <div class="input-group">
+      <label for="target">Target Attendance %:</label>
+      <input type="number" id="target" placeholder="0-100">
+    </div>
+    <input type="submit" value="Calculate Required Attendance">
+    <div id="result"></div>
+  </form>
+
+  <script src="script2.js"></script>
+  <div class="footer">
+    <span><a href="index1.html">Attendance Calculator</a></span>
+</div>
+</body>
+</html>
